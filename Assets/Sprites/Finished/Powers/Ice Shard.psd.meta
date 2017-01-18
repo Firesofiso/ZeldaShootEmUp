@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: fc18eec900186234c854f9bf7357ae4a
+timeCreated: 1473313321
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ice Shard_0
+    21300002: Ice Shard_1
+    21300004: Ice Shard_2
+    21300006: Ice Shard_3
+    21300008: Ice Shard_4
+    21300010: Ice Shard_5
+    21300012: Ice Shard_6
+    21300014: Ice Shard_7
+    21300016: Ice Shard_8
+    21300018: Ice Shard_9
+    21300020: Ice Shard_10
+    21300022: Ice Shard_11
+    21300024: Ice Shard_12
+    21300026: Ice Shard_13
+    21300028: Ice Shard_14
+    21300030: Ice Shard_15
+    21300032: Ice Shard_16
+    21300034: Ice Shard_17
+    21300036: Ice Shard_18
+    21300038: Ice Shard_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ice Shard_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 49
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 49
+        width: 20
+        height: 11
+      alignment: 9
+      pivot: {x: 0.29874277, y: 0.49999964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 49
+        width: 28
+        height: 11
+      alignment: 9
+      pivot: {x: 0.2147819, y: 0.4999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 49
+        width: 28
+        height: 11
+      alignment: 9
+      pivot: {x: 0.21379879, y: 0.49999964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 47
+        width: 30
+        height: 15
+      alignment: 9
+      pivot: {x: 0.80043185, y: 0.49480286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 48
+        width: 30
+        height: 13
+      alignment: 9
+      pivot: {x: 0.8011948, y: 0.49612105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 57
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 57
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 57
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 57
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 37
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 37
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_12
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 37
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 37
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice Shard_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

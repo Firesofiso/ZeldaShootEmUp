@@ -1,15 +1,84 @@
 fileFormatVersion: 2
 guid: 62d0e98a0debd764fad7071c490e6023
-timeCreated: 1473275902
+timeCreated: 1484776896
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
-  serializedVersion: 2
+  fileIDToRecycleName:
+    21300000: FireWizzrobe_0
+    21300002: FireWizzrobe_1
+    21300004: FireWizzrobe_2
+    21300006: FireWizzrobe_3
+    21300008: FireWizzrobe_4
+    21300010: FireWizzrobe_5
+    21300012: FireWizzrobe_6
+    21300014: FireWizzrobe_7
+    21300016: FireWizzrobe_8
+    21300018: FireWizzrobe_9
+    21300020: FireWizzrobe_10
+    21300022: FireWizzrobe_11
+    21300024: FireWizzrobe_12
+    21300026: FireWizzrobe_13
+    21300028: FireWizzrobe_14
+    21300030: FireWizzrobe_15
+    21300032: FireWizzrobe_16
+    21300034: FireWizzrobe_17
+    21300036: FireWizzrobe_18
+    21300038: FireWizzrobe_19
+    21300040: FireWizzrobe_20
+    21300042: FireWizzrobe_21
+    21300044: FireWizzrobe_22
+    21300046: FireWizzrobe_23
+    21300048: FireWizzrobe_24
+    21300050: FireWizzrobe_25
+    21300052: FireWizzrobe_26
+    21300054: FireWizzrobe_27
+    21300056: FireWizzrobe_28
+    21300058: FireWizzrobe_29
+    21300060: FireWizzrobe_30
+    21300062: FireWizzrobe_31
+    21300064: FireWizzrobe_32
+    21300066: FireWizzrobe_33
+    21300068: FireWizzrobe_34
+    21300070: FireWizzrobe_35
+    21300072: FireWizzrobe_36
+    21300074: FireWizzrobe_37
+    21300076: FireWizzrobe_38
+    21300078: FireWizzrobe_39
+    21300080: FireWizzrobe_40
+    21300082: FireWizzrobe_41
+    21300084: FireWizzrobe_42
+    21300086: FireWizzrobe_43
+    21300088: FireWizzrobe_44
+    21300090: FireWizzrobe_45
+    21300092: FireWizzrobe_46
+    21300094: FireWizzrobe_47
+    21300096: FireWizzrobe_48
+    21300098: FireWizzrobe_49
+    21300100: FireWizzrobe_50
+    21300102: FireWizzrobe_51
+    21300104: FireWizzrobe_52
+    21300106: FireWizzrobe_53
+    21300108: FireWizzrobe_54
+    21300110: FireWizzrobe_55
+    21300112: FireWizzrobe_56
+    21300114: FireWizzrobe_57
+    21300116: FireWizzrobe_58
+    21300118: FireWizzrobe_59
+    21300120: FireWizzrobe_60
+    21300122: FireWizzrobe_61
+    21300124: FireWizzrobe_62
+    21300126: FireWizzrobe_63
+    21300128: FireWizzrobe_64
+    21300130: FireWizzrobe_65
+    21300132: FireWizzrobe_66
+    21300134: FireWizzrobe_67
+    21300136: FireWizzrobe_68
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -21,10 +90,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -35,9 +102,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -45,13 +110,939 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FireWizzrobe_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 97
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 124
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 97
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 97
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 126
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 97
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 97
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 121
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 123
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 97
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 97
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_11
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 121
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 97
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 123
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 95
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 95
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_16
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 95
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 97
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 107
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 104
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_21
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 105
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 104
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 76
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 49
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 49
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 78
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 49
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 49
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 74
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 49
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_31
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 76
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 49
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_33
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 74
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_34
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 49
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_35
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 49
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_36
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 49
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 49
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 75
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_39
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 50
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 49
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_41
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_42
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 64
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_43
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 66
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_44
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 64
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_45
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 64
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 32
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_48
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 5
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_49
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 5
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 34
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_51
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 5
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_53
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_54
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 5
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_56
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 5
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_57
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_58
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 5
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_59
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 31
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_60
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 5
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_61
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 5
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_62
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 5
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_63
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_64
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 5
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_65
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 16
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_66
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 16
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_67
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 25
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireWizzrobe_68
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 16
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

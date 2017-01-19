@@ -11,6 +11,8 @@ public class EnemyScript : MonoBehaviour {
     public float speed = 2f;
     public int dmg; //Damage done when running into player.
 
+    public bool destroyOnCollision;
+
     //public float timeout;
     //public string type;
     //public bool absorbing = false;
@@ -37,7 +39,10 @@ public class EnemyScript : MonoBehaviour {
         else if (other.tag == "Player")
         {
             other.GetComponent<Player>().TakeDamage(dmg);
-            Destroy(gameObject);
+            if (destroyOnCollision)
+            {
+                Destroy(gameObject);
+            }
         } else if (other.tag == "Bullets" && other.GetComponent<BulletScript>() && !other.GetComponent<BulletScript>().isEnemies)
         {
 

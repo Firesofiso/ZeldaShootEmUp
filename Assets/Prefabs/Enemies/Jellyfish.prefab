@@ -107,9 +107,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae976fd7fadabc045a2332d66094937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   speed: 1
   dmg: 1
+  destroyOnCollision: 1
   pickUps:
   - {fileID: 183796, guid: fddeb38ebea285d43b3355ed8808998f, type: 2}
   - {fileID: 1000012759285292, guid: 03780eb4bc278744798cbecf8f34db02, type: 2}

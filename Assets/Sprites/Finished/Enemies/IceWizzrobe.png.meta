@@ -1,15 +1,77 @@
 fileFormatVersion: 2
 guid: b713e8d5c1f90344f9f15b21bc3a8e4a
-timeCreated: 1473275903
+timeCreated: 1484777040
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
-  serializedVersion: 2
+  fileIDToRecycleName:
+    21300000: IceWizzrobe_0
+    21300002: IceWizzrobe_1
+    21300004: IceWizzrobe_2
+    21300006: IceWizzrobe_3
+    21300008: IceWizzrobe_4
+    21300010: IceWizzrobe_5
+    21300012: IceWizzrobe_6
+    21300014: IceWizzrobe_7
+    21300016: IceWizzrobe_8
+    21300018: IceWizzrobe_9
+    21300020: IceWizzrobe_10
+    21300022: IceWizzrobe_11
+    21300024: IceWizzrobe_12
+    21300026: IceWizzrobe_13
+    21300028: IceWizzrobe_14
+    21300030: IceWizzrobe_15
+    21300032: IceWizzrobe_16
+    21300034: IceWizzrobe_17
+    21300036: IceWizzrobe_18
+    21300038: IceWizzrobe_19
+    21300040: IceWizzrobe_20
+    21300042: IceWizzrobe_21
+    21300044: IceWizzrobe_22
+    21300046: IceWizzrobe_23
+    21300048: IceWizzrobe_24
+    21300050: IceWizzrobe_25
+    21300052: IceWizzrobe_26
+    21300054: IceWizzrobe_27
+    21300056: IceWizzrobe_28
+    21300058: IceWizzrobe_29
+    21300060: IceWizzrobe_30
+    21300062: IceWizzrobe_31
+    21300064: IceWizzrobe_32
+    21300066: IceWizzrobe_33
+    21300068: IceWizzrobe_34
+    21300070: IceWizzrobe_35
+    21300072: IceWizzrobe_36
+    21300074: IceWizzrobe_37
+    21300076: IceWizzrobe_38
+    21300078: IceWizzrobe_39
+    21300080: IceWizzrobe_40
+    21300082: IceWizzrobe_41
+    21300084: IceWizzrobe_42
+    21300086: IceWizzrobe_43
+    21300088: IceWizzrobe_44
+    21300090: IceWizzrobe_45
+    21300092: IceWizzrobe_46
+    21300094: IceWizzrobe_47
+    21300096: IceWizzrobe_48
+    21300098: IceWizzrobe_49
+    21300100: IceWizzrobe_50
+    21300102: IceWizzrobe_51
+    21300104: IceWizzrobe_52
+    21300106: IceWizzrobe_53
+    21300108: IceWizzrobe_54
+    21300110: IceWizzrobe_55
+    21300112: IceWizzrobe_56
+    21300114: IceWizzrobe_57
+    21300116: IceWizzrobe_58
+    21300118: IceWizzrobe_59
+    21300120: IceWizzrobe_60
+    21300122: IceWizzrobe_61
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -21,10 +83,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -35,9 +95,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -45,13 +103,848 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: IceWizzrobe_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 107
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 107
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 107
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 107
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 107
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 107
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 107
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 107
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 107
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 107
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 107
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 107
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 71
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 71
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 71
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 71
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 71
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 71
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 71
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 71
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 71
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_21
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 72
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_22
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 72
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 72
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 38
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 38
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 38
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_27
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 38
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_29
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 38
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_30
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 38
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 38
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_32
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 38
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_33
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 38
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_34
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 38
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_35
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 38
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 11
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 10
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 10
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_40
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 11
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_41
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_44
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 10
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_45
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 22
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_46
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 18
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_47
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_48
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_49
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_50
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_51
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_52
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 22
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_53
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 5
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_54
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_55
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 8
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_56
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 8
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_57
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 9
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_58
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 5
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_59
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 7
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_60
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: IceWizzrobe_61
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 7
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

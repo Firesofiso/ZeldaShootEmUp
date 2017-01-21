@@ -38,7 +38,7 @@ public class LinkAudioHandler : MonoBehaviour {
 
     private void Awake()
     {
-        normalLasersAudio = AddAudio(normalLasersClip, false, false, 128, Random.Range(0.5f, 1f), 1);
+        normalLasersAudio = AddAudio(normalLasersClip, false, false, 128, Random.Range(0.5f, 1f), 2);
         hurtAudio = AddAudio(hurtClip, false, false, 128, Random.Range(0.5f, 1f), 1);
         pickUpRupeeAudio = AddAudio(pickUpRupeeClip, false, false, 128, Random.Range(0.5f, 1f), 1);
         pickUpHeartAudio = AddAudio(pickUpHeartClip, false, false, 128, Random.Range(0.5f, 1f), 1);

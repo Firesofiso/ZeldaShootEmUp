@@ -13,13 +13,15 @@ public class Player : MonoBehaviour {
 
     public bool canShoot = true;
 
-    //PowerUps
-    public bool isRapidFire = false;
-    public List<GameObject> powerUps;
-
+    //Bullets and Shooting
     public Transform shotPos;
     public GameObject bulletContainer;
     private List<GameObject> bullets = new List<GameObject>();
+
+    //Powers
+    public PowerColor currentPower;
+    public SpriteRenderer main, gems;
+    private int powerIndex;
 
     private Animator anim;
     private LinkAudioHandler linkAudio;
@@ -60,6 +62,38 @@ public class Player : MonoBehaviour {
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * maxSpeed, moveY * maxSpeed);
 
+        /*
+         * Trying to get some cool drift effect, not really working.
+        float rotY = transform.eulerAngles.y;
+
+        if (moveX != 0)
+        {
+            if (Mathf.Abs(transform.eulerAngles.y) != 30)
+            {
+                if (moveX < 0)
+                {
+                    rotY--;
+                    transform.eulerAngles = new Vector3(0, rotY, 0);
+                }
+                else if (moveX > 0)
+                {
+                    rotY++;
+                    transform.eulerAngles = new Vector3(0, rotY, 0);
+                }
+            }
+        } else
+        {
+            if (transform.eulerAngles.y < 0)
+            {
+                rotY++;
+                transform.eulerAngles = new Vector3(0, rotY, 0);
+            } else if (transform.eulerAngles.y > 0)
+            {
+                rotY--;
+                transform.eulerAngles = new Vector3(0, rotY, 0);
+            }
+        }
+        */
         
     }
 
@@ -71,7 +105,7 @@ public class Player : MonoBehaviour {
             GameObject.Find("Game Manager").GetComponent<GameManager>().reset();
         }
 
-        if (Input.GetButton("Fire1") && canShoot == true)
+        if (Input.GetButtonDown("Fire1") && canShoot == true)
         {
             if (FindNextBullet() != null)
             {
@@ -81,6 +115,16 @@ public class Player : MonoBehaviour {
                 linkAudio.normalLasersAudio.PlayOneShot(linkAudio.normalLasersClip, Random.Range(0.25f, 0.75f));
                 StartCoroutine(DelayShots());
             }
+        }
+
+        if (Input.GetButtonDown("PrevPower"))
+        {
+            PreviousPower();
+        }
+
+        if (Input.GetButtonDown("NextPower"))
+        {
+            NextPower();
         }
     }
 
@@ -101,21 +145,6 @@ public class Player : MonoBehaviour {
         canShoot = false;
         yield return new WaitForSeconds(shotDelay);
         canShoot = true;
-    }
-
-    IEnumerator RapidFire()
-    {
-        HUDScript hud = GameObject.Find("Canvas").GetComponent<HUDScript>();
-        if (isRapidFire == false)
-        {
-            isRapidFire = true;
-            GameObject rF = Instantiate(powerUps[0], hud.powerUpPos.position, Quaternion.identity) as GameObject;
-            shotDelay *= 0.5f;
-            yield return new WaitForSeconds(5);
-            shotDelay = baseDelay;
-            isRapidFire = false;
-            Destroy(rF);
-        }
     }
 
     public void TakeDamage(int dmg)
@@ -154,5 +183,36 @@ public class Player : MonoBehaviour {
     {
         gm.rupees += value;
         linkAudio.pickUpRupeeAudio.Play();
+    }
+
+    //Power stuff
+    public void NextPower()
+    {
+        LinkPowerColors temp = GetComponent<LinkPowerColors>();
+        if (powerIndex < temp.powers.Length - 1) {
+            powerIndex++;
+        } else
+        {
+            powerIndex = 0;
+        }
+        currentPower = temp.powers[powerIndex];
+        main.color = currentPower.main;
+        gems.color = currentPower.gems;
+    }
+
+    public void PreviousPower()
+    {
+        LinkPowerColors temp = GetComponent<LinkPowerColors>();
+        if (powerIndex > 0)
+        {
+            powerIndex--;
+        }
+        else
+        {
+            powerIndex = temp.powers.Length - 1;
+        }
+        currentPower = temp.powers[powerIndex];
+        main.color = currentPower.main;
+        gems.color = currentPower.gems;
     }
 }

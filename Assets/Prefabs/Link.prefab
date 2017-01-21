@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 61000011099856708}
   - component: {fileID: 50000012796999570}
   - component: {fileID: 114828464479712872}
+  - component: {fileID: 114102210168113434}
   m_Layer: 9
   m_Name: Link
   m_TagString: Player
@@ -129,7 +130,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1180184749769818}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -228,14 +229,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curHP: 3
   maxSpeed: 2.5
-  shotDelay: 0.25
+  shotDelay: 0.1
   baseDelay: 0.25
   canShoot: 1
-  isRapidFire: 0
-  powerUps:
-  - {fileID: 0}
   shotPos: {fileID: 4000011501070596}
   bulletContainer: {fileID: 0}
+  currentPower:
+    name: 
+    main: {r: 0, g: 0, b: 0, a: 0}
+    gems: {r: 0, g: 0, b: 0, a: 0}
+  main: {fileID: 212000011959136142}
+  gems: {fileID: 212502135072539600}
+--- !u!114 &114102210168113434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013262538824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0ab1b43ef41b42bbcb8583e8d844a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powers:
+  - name: Normal
+    main: {r: 0.27496722, g: 0.64705884, b: 0.26167822, a: 1}
+    gems: {r: 0.8308824, g: 0.8190848, b: 0.40322232, a: 1}
+  - name: Water Jet
+    main: {r: 0.22794116, g: 0.4888439, b: 1, a: 1}
+    gems: {r: 0.29974046, g: 0.33813092, b: 0.72794116, a: 1}
+  - name: Fire Shot
+    main: {r: 0.78676474, g: 0.22561634, b: 0.22561634, a: 1}
+    gems: {r: 0.9191176, g: 0.5648938, b: 0.24329586, a: 1}
+  - name: Ice Shard
+    main: {r: 0.46172148, g: 0.843017, b: 0.89705884, a: 1}
+    gems: {r: 0.79692906, g: 0.96191084, b: 0.9852941, a: 1}
+  - name: Dark Beam
+    main: {r: 0.3612636, g: 0.26048875, b: 0.4852941, a: 1}
+    gems: {r: 0.21323532, g: 0.21323532, b: 0.21323532, a: 1}
+  - name: Acid Glob
+    main: {r: 0, g: 1, b: 0.048275948, a: 1}
+    gems: {r: 0.55495167, g: 0.74264705, b: 0.25665006, a: 1}
+  - name: Saw
+    main: {r: 0.53676474, g: 0.53676474, b: 0.53676474, a: 1}
+    gems: {r: 0.95883924, g: 0.9632353, b: 0.6445178, a: 1}
+  - name: Brick
+    main: {r: 0.5955882, g: 0.38719273, b: 0.29341477, a: 1}
+    gems: {r: 0.77205884, g: 0.30725747, b: 0.17030707, a: 1}
+  - name: Lightning Ball
+    main: {r: 0.9375254, g: 1, b: 0.35294116, a: 1}
+    gems: {r: 0.37203413, g: 0.27892518, b: 0.5661765, a: 1}
 --- !u!114 &114828464479712872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -285,7 +328,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: b1eeb609cc3c01c4ba152a778485831b, type: 3}
   m_Color: {r: 0.27496722, g: 0.64705884, b: 0.26167822, a: 1}
   m_FlipX: 0
@@ -355,7 +398,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c736c6d9ee7cac84b89570d6aa2ae24d, type: 3}
   m_Color: {r: 0.8308824, g: 0.8190848, b: 0.40322232, a: 1}
   m_FlipX: 0
